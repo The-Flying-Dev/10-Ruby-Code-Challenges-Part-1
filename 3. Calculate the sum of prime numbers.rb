@@ -2,7 +2,7 @@
 
 def sum_prime_numbers(arr)
 
-  # creates a new array using select enumerable with only prime numbers
+  # creates a new array using select enumerable with only prime numbers using prime_number? method
   prime_array = arr.select { |n| prime_number?(n) }
   
   # reduce enumerable to find the sum of array
