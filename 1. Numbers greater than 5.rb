@@ -21,5 +21,11 @@ end
 
 
 num_array = [17, 7, 3, 6, 10, 1]
+another_num_array = [12, 17, 33, 6, 1, 3]
+extra_num_array = [37, 54, 2, 5, 100, 4]
+last_num_array = [3, 2, 4, 7, 11, 19]
 
 puts greater_than_five(num_array)
+puts greater_than_five(another_num_array)
+puts greater_than_five(extra_num_array)
+puts greater_than_five(last_num_array)
