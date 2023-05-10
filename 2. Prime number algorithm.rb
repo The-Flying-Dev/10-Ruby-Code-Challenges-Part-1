@@ -2,25 +2,25 @@
 
 def prime_number?(n)
   
-    # first test to return if n is <= 0
-    return "#{n} must be greater than 1, try again!" if n <= 0
+    # test to return false if n is <= 2
+    return false if n < 2
 
-    # loop through a range from 2 till the value 1 less than n
-    for i in (2..n - 1)
-        if !(n % i == 0)
-            return "#{n} is a prime number"
-        else 
-            return "#{n} is not a prime number"
-        end
+    # loop through a range from 2 up to but not including n     
+    for i in 2...n
+        if (n % i == 0)
+            return false        
+        end                     
     end
+
+    return true  
 
 end
 
 
-p prime_number?(0)
-p prime_number?(-13)
-p prime_number?(6)
+p prime_number?(2)
+p prime_number?(1)
+p prime_number?(77)
 p prime_number?(5)
 p prime_number?(11)
-p prime_number?(12)
-p prime_number?(-100)
+p prime_number?(2)
+p prime_number?(44)
