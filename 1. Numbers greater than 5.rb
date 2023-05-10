@@ -18,7 +18,7 @@ def greater_than_five(arr)
     count
 
     
-    # Solution using select enumerable, puts elements greate than 5 into new array then counts the size of that array
+    # Solution using select enumerable, puts elements greater than 5 into new array then counts the size of that array
 
     # total = arr.select { |i| i > 5 }.size
     # total
