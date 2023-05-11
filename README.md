@@ -1,0 +1,1 @@
+# An assortment of 10 Ruby Code Challenges by [CodeAcademy](https://www.codecademy.com/resources/blog/10-ruby-code-challenges-for-beginners/)
